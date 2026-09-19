@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vinnytsia after 6</title>
+<meta name="description" content="One week of evening plans in Vinnytsia, 21 to 27 September 2026.">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Rubik:wght@400;500;700&display=swap">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H"
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Hand-drawn glyph sprite. Paths are deliberately off-true; do not "correct" them. -->
+<svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="g-squiggle" viewBox="0 0 200 14">
+    <path d="M3 9.5c16-6.5 31 3.5 47-1.5S82 2 99 7.5s30 4 45-1 34-1.5 50 2.5"
+          fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/>
+  </symbol>
+
+  <symbol id="g-arrow" viewBox="0 0 40 28">
+    <path d="M3 15c6-7 13 5 19-2.5S32 7 36 10.5" fill="none" stroke="currentColor"
+          stroke-width="3" stroke-linecap="round"/>
+    <path d="M29.5 5.5 37 10.8l-8.6 4.4" fill="none" stroke="currentColor"
+          stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="g-frame" viewBox="0 0 32 32">
+    <path d="M4.5 5.2 27 4.1l1.3 22.6L5.1 27.7z" fill="none" stroke="currentColor"
+          stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M8 22.4l5.6-7.1 4.1 4.6 3.4-4 3.9 6.2z" fill="none" stroke="currentColor"
+          stroke-width="2.2" stroke-linejoin="round"/>
+    <circle cx="11.2" cy="10.6" r="1.9" fill="none" stroke="currentColor" stroke-width="2.2"/>
+  </symbol>
+
+  <symbol id="g-glass" viewBox="0 0 32 32">
+    <path d="M8.4 4.3h15.4c-.4 6.6-2.6 10.9-7.4 11.2-5-.1-7.4-4.4-8-11.2z"
+          fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M16.2 15.6c.3 4.3.2 8.1-.4 11.6" fill="none" stroke="currentColor"
+          stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M10.4 27.8c3.9-.9 7.6-1 11.2-.2" fill="none" stroke="currentColor"
+          stroke-width="2.6" stroke-linecap="round"/>
+  </symbol>
+
+  <symbol id="g-cup" viewBox="0 0 32 32">
+    <path d="M5.6 12.4h17.2c.3 6.9-2.6 11.6-8.4 11.9-5.7-.2-8.7-4.8-8.8-11.9z"
+          fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M23.2 14.6c3.6-1.2 5.4-.2 5.2 2.8-.2 2.8-2 4-5.2 3.4"
+          fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M4 27.4c6.9-1.1 13.6-1 20.1.2" fill="none" stroke="currentColor"
+          stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M11.8 8.2c-1.4-2 .3-3.2-.4-4.9M17.4 8.4c-1.5-2.2.4-3.4-.5-5.3"
+          fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+  </symbol>
+
+  <symbol id="g-view" viewBox="0 0 32 32">
+    <circle cx="23.4" cy="9.1" r="3.8" fill="none" stroke="currentColor" stroke-width="2.4"/>
+    <path d="M2.6 25.6 11 13.4l5.9 7.4 3.8-4.6 8.1 9.6z" fill="none" stroke="currentColor"
+          stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M2.4 28.6c8.8-1 18.2-1.1 27.3-.2" fill="none" stroke="currentColor"
+          stroke-width="2.4" stroke-linecap="round"/>
+  </symbol>
+
+  <symbol id="g-workshop" viewBox="0 0 32 32">
+    <path d="M9.2 12.6c-2.4 4.6-1.4 9.9 1.2 13.9 3.4 1.4 7.4 1.3 10.9-.2 2.6-4.2 3.2-9.4.8-13.8z"
+          fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M7.4 12.4c5.6-1.6 11.4-1.7 17.2-.2" fill="none" stroke="currentColor"
+          stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M12.4 12.2c-.6-3.4.6-5.9 3.6-6.2 3.1-.3 4.4 2.2 4 6.1"
+          fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+  </symbol>
+
+  <symbol id="g-social" viewBox="0 0 32 32">
+    <path d="M3.4 8.6c5.6-1.5 11.4-1.4 16.8.2.9 4.1.6 7.4-.9 10-4.4.8-8.6.6-12.6-.6l-4.6 3.2 1.6-4.9c-1.2-2.5-1.3-5.2-.3-7.9z"
+          fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M22.6 12.2c3.4.2 5.8 1.2 6.6 3.4.7 2.1.2 4.3-1.4 6.4l1.2 4.2-4-2.4c-2.7.7-5.2.4-7.4-.9"
+          fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+  </symbol>
+</svg>
+
+<a class="skip" href="#week">Skip to the week</a>
+
+<div class="sheet">
+
+  <header class="masthead">
+    <p class="kicker" id="masthead-kicker"></p>
+    <h1 class="masthead__title">
+      <span id="masthead-title"></span>
+      <svg class="squiggle" viewBox="0 0 200 14" aria-hidden="true" focusable="false"><use href="#g-squiggle"/></svg>
+    </h1>
+    <p class="masthead__intro" id="masthead-intro"></p>
+  </header>
+
+  <section class="band" aria-labelledby="notes-h">
+    <h2 class="band__h" id="notes-h"></h2>
+    <ul class="notes" id="notes-list"></ul>
+  </section>
+
+  <section class="band" id="week" aria-labelledby="week-h">
+    <h2 class="band__h" id="week-h"></h2>
+    <div class="days" id="day-tabs" role="tablist" aria-label="Day of the week"></div>
+    <div id="day-panels"></div>
+  </section>
+
+  <section class="band" aria-labelledby="map-h">
+    <h2 class="band__h" id="map-h"></h2>
+    <p class="band__hint" id="map-hint"></p>
+    <div class="mapwrap">
+      <div id="map" role="application"></div>
+    </div>
+    <div class="legend" id="map-legend"></div>
+  </section>
+
+  <section class="band" aria-labelledby="dir-h">
+    <h2 class="band__h" id="dir-h"></h2>
+
+    <form class="filters" id="filters">
+      <fieldset class="filterset">
+        <legend class="filterset__legend" id="filter-cat-legend"></legend>
+        <div class="chips" id="filter-categories"></div>
+      </fieldset>
+      <fieldset class="filterset">
+        <legend class="filterset__legend" id="filter-dist-legend"></legend>
+        <div class="chips" id="filter-districts"></div>
+      </fieldset>
+      <div class="filters__foot">
+        <button type="button" class="btn btn--ghost" id="clear-filters"></button>
+        <p class="count" id="result-count" role="status" aria-live="polite"></p>
+      </div>
+    </form>
+
+    <div class="cards" id="venue-list"></div>
+    <p class="empty" id="venue-empty" hidden></p>
+  </section>
+
+  <footer class="footer">
+    <h2 class="footer__h" id="unmapped-h"></h2>
+    <ul class="footer__list" id="unmapped-list"></ul>
+    <p class="footer__note" id="footer-data-note"></p>
+    <p class="footer__note" id="footer-heritage-note"></p>
+    <p class="footer__credit">Map data &copy; OpenStreetMap contributors. Tiles from openstreetmap.org.</p>
+  </footer>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH"
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="app.js"></script>
+</body>
+</html>

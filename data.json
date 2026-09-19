@@ -1,0 +1,1426 @@
+{
+  "meta": {
+    "title": "Vinnytsia after 6",
+    "subtitle": "One week of evenings, 21-27 September 2026",
+    "intro": "Seven evenings in Vinnytsia for someone who clocks off at 18:00 in Vyshenka and would rather not spend them at home. Second-tier places only: no landmarks, nothing already ticked off. Friday is yours.",
+    "weekStart": "2026-09-21",
+    "weekEnd": "2026-09-27",
+    "budgetUah": 300,
+    "budgetNote": "The week is built around 300 UAH an evening. Anything above that is marked.",
+    "commute": {
+      "workEnds": "18:00",
+      "westArrival": "18:10",
+      "centreArrival": "18:25",
+      "note": "Work ends at 18:00 in the west. The centre is 15 to 20 minutes away, so nothing there starts for you before about 18:25."
+    },
+    "heritageDaysNote": "Every dated event below is part of European Heritage Days in Vinnytsia, 19 to 30 September. Most of them need registration in advance through the city council forms, so check before you set out.",
+    "dataNote": "Opening hours, prices and addresses come from a single brief and were not re-checked against the venues. Anything the brief did not state is marked as not published rather than guessed."
+  },
+  "ui": {
+    "sections": {
+      "notes": "Before you go",
+      "week": "The week",
+      "map": "Where all of this is",
+      "directory": "Every place on the list"
+    },
+    "labels": {
+      "mainPlan": "The plan",
+      "planB": "Plan B",
+      "either": "Either one, pick by weather",
+      "then": "then",
+      "eventsToday": "Dated events this day",
+      "filterCategory": "What kind of place",
+      "filterDistrict": "Which side of town",
+      "clearFilters": "Show everything",
+      "openInMaps": "Open in maps",
+      "notOnMap": "Address never confirmed, so this one is not on the map.",
+      "hoursUnknown": "Hours not published",
+      "closedToday": "Closed this day",
+      "showDriver": "Show the driver",
+      "tooEarly": "Starts before you can get there from work",
+      "tight": "Tight connection from work",
+      "overBudget": "Over 300 UAH",
+      "free": "Free",
+      "mapLegend": "Pin colours",
+      "mapHint": "Tap a pin for the address and the hours. Pins for the selected day are solid, the rest are faded.",
+      "resultCount": "places shown",
+      "noResults": "Nothing matches both filters. Widen one of them.",
+      "unmappedHeading": "Not on the map",
+      "entryLabel": "Entry",
+      "orJoin": "or",
+      "unmappedNoAddress": "no address in the source at all",
+      "unmappedNoNumber": "the street resolves, but OpenStreetMap has no building number there",
+      "districtLabel": "Side of town",
+      "priceLabel": "Prices",
+      "accessLabel": "Getting in",
+      "hoursLabel": "Hours"
+    }
+  },
+  "practicalNotes": [
+    {
+      "id": "curfew",
+      "title": "Curfew is 00:00 to 05:00",
+      "body": "Almost everything shuts between 22:00 and 23:30. An evening here starts at 18:15, not at 21:00. Plan the first stop, not the last."
+    },
+    {
+      "id": "alerts",
+      "title": "An air raid alert can end the night early",
+      "body": "No warning, and the venue empties. Most of the centre places sit within ten minutes' walk of each other along Soborna, so moving on costs you a walk, not the evening."
+    }
+  ],
+  "categories": [
+    {
+      "id": "art",
+      "label": "Art",
+      "color": "#B23A23"
+    },
+    {
+      "id": "bar",
+      "label": "Bar",
+      "color": "#2B4A7D"
+    },
+    {
+      "id": "coffee",
+      "label": "Coffee",
+      "color": "#C77F16"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "color": "#1C7268"
+    },
+    {
+      "id": "workshop",
+      "label": "Workshop",
+      "color": "#7B3F62"
+    },
+    {
+      "id": "social",
+      "label": "Social",
+      "color": "#1A1712"
+    }
+  ],
+  "districts": [
+    {
+      "id": "west",
+      "label": "West",
+      "note": "Vyshenka and around, next to work. No travel."
+    },
+    {
+      "id": "centre",
+      "label": "Centre",
+      "note": "Roughly 3.5 km east. 15 to 20 minutes by tram, or a cheap taxi."
+    }
+  ],
+  "priceTiers": [
+    {
+      "id": "low",
+      "label": "Cheap"
+    },
+    {
+      "id": "mid",
+      "label": "Middling"
+    },
+    {
+      "id": "high",
+      "label": "Restaurant prices"
+    }
+  ],
+  "venues": [
+    {
+      "id": "propaganda",
+      "name": "PROPAGANDA",
+      "nameUk": null,
+      "addressUk": "проспект Космонавтів, 15",
+      "district": "west",
+      "category": "bar",
+      "tags": ["social"],
+      "hours": {
+        "mon": null,
+        "tue": [{ "open": "16:00", "close": "22:00" }],
+        "wed": [{ "open": "16:00", "close": "22:00" }],
+        "thu": [{ "open": "16:00", "close": "22:00" }],
+        "fri": [{ "open": "16:00", "close": "23:00" }],
+        "sat": [{ "open": "12:00", "close": "23:00" }],
+        "sun": [{ "open": "12:00", "close": "22:00" }]
+      },
+      "hoursStatus": "known",
+      "hoursNote": null,
+      "priceTier": null,
+      "entry": null,
+      "description": "Craft beer bar where the counter is the main seating and the taps change.",
+      "why": "The best beer in the city, and the one bar on this side of town where strangers talk at the bar.",
+      "accessNote": null,
+      "coords": [49.231531, 28.421176],
+      "needsVerification": false
+    },
+    {
+      "id": "kultura",
+      "name": "Kultura",
+      "nameUk": null,
+      "addressUk": "проспект Космонавтів",
+      "district": "west",
+      "category": "coffee",
+      "tags": [],
+      "hours": {
+        "mon": [{ "open": "10:00", "close": "21:30" }],
+        "tue": [{ "open": "10:00", "close": "21:30" }],
+        "wed": [{ "open": "10:00", "close": "21:30" }],
+        "thu": [{ "open": "10:00", "close": "21:30" }],
+        "fri": [{ "open": "10:00", "close": "21:30" }],
+        "sat": [{ "open": "10:30", "close": "22:00" }],
+        "sun": [{ "open": "10:30", "close": "22:00" }]
+      },
+      "hoursStatus": "known",
+      "hoursNote": "Street address only, no building number in the source.",
+      "priceTier": "low",
+      "entry": null,
+      "description": "A small coffee bar on Kosmonavtiv that the neighbourhood treats as its own kitchen.",
+      "why": "Cheapest thing on this list, and the regulars will tell you it is the best coffee in Vyshenka.",
+      "accessNote": null,
+      "coords": null,
+      "needsVerification": true
+    },
+    {
+      "id": "cokava",
+      "name": "Co.Kava",
+      "nameUk": null,
+      "addressUk": "проспект Космонавтів, 7",
+      "district": "west",
+      "category": "coffee",
+      "tags": [],
+      "hours": null,
+      "hoursStatus": "unverified",
+      "hoursNote": "Hours not confirmed. Call ahead or walk past on the way home.",
+      "priceTier": null,
+      "entry": null,
+      "description": "Coffee with room to spread out and books on the shelf to read while you sit.",
+      "why": "Somewhere to land alone with a book on an evening you do not feel like talking.",
+      "accessNote": null,
+      "coords": [49.232228, 28.420788],
+      "needsVerification": false
+    },
+    {
+      "id": "sharikava",
+      "name": "Sharikava",
+      "nameUk": null,
+      "addressUk": "проспект Космонавтів, 20",
+      "district": "west",
+      "category": "coffee",
+      "tags": [],
+      "hours": {
+        "mon": [{ "open": "08:00", "close": "22:00" }],
+        "tue": [{ "open": "08:00", "close": "22:00" }],
+        "wed": [{ "open": "08:00", "close": "22:00" }],
+        "thu": [{ "open": "08:00", "close": "22:00" }],
+        "fri": [{ "open": "08:00", "close": "22:00" }],
+        "sat": [{ "open": "08:00", "close": "22:00" }],
+        "sun": [{ "open": "08:00", "close": "22:00" }]
+      },
+      "hoursStatus": "known",
+      "hoursNote": null,
+      "priceTier": null,
+      "entry": null,
+      "description": "Coffee from eight in the morning until ten at night, no ceremony about it.",
+      "why": "Open later than most of the street and three minutes from the office door.",
+      "accessNote": null,
+      "coords": [49.230252, 28.419833],
+      "needsVerification": false
+    },
+    {
+      "id": "omotenashi",
+      "name": "OMOTENASHI",
+      "nameUk": null,
+      "addressUk": "вулиця 600-річчя, 44",
+      "district": "west",
+      "category": "coffee",
+      "tags": [],
+      "hours": {
+        "mon": [{ "open": "07:00", "close": "22:00" }],
+        "tue": [{ "open": "07:00", "close": "22:00" }],
+        "wed": [{ "open": "07:00", "close": "22:00" }],
+        "thu": [{ "open": "07:00", "close": "22:00" }],
+        "fri": [{ "open": "07:00", "close": "22:00" }],
+        "sat": [{ "open": "07:00", "close": "22:00" }],
+        "sun": [{ "open": "07:00", "close": "22:00" }]
+      },
+      "hoursStatus": "known",
+      "hoursNote": null,
+      "priceTier": null,
+      "entry": null,
+      "description": "Coffee with a terrace big enough that you never have to share a table unless you want to.",
+      "why": "The terrace is the whole point, and late September is the last of the weather for it.",
+      "accessNote": null,
+      "coords": [49.226423, 28.424998],
+      "needsVerification": false
+    },
+    {
+      "id": "gigi",
+      "name": "GIGI",
+      "nameUk": "Магазин вина GIGI",
+      "addressUk": "вулиця 600-річчя, 9Б",
+      "district": "west",
+      "category": "bar",
+      "tags": [],
+      "hours": {
+        "mon": [{ "open": null, "close": "20:00" }],
+        "tue": [{ "open": null, "close": "20:00" }],
+        "wed": [{ "open": null, "close": "20:00" }],
+        "thu": [{ "open": null, "close": "20:00" }],
+        "fri": [{ "open": null, "close": "20:00" }],
+        "sat": [{ "open": null, "close": "20:00" }],
+        "sun": [{ "open": null, "close": "20:00" }]
+      },
+      "hoursStatus": "partial",
+      "hoursNote": "Opening time not stated in the source. Closes at 20:00 daily.",
+      "priceTier": null,
+      "entry": null,
+      "description": "The Gigienishvili winery's own shop, selling Vinnytsia wine made by the people behind the counter.",
+      "why": "A wine shop where asking questions and tasting is the normal way to shop, which makes going alone easy.",
+      "accessNote": null,
+      "coords": null,
+      "needsVerification": true
+    },
+    {
+      "id": "beerblues",
+      "name": "Beer & Blues",
+      "nameUk": null,
+      "addressUk": "вулиця 600-річчя, 60",
+      "district": "west",
+      "category": "bar",
+      "tags": ["social"],
+      "hours": {
+        "mon": [{ "open": "12:00", "close": "23:00" }],
+        "tue": [{ "open": "12:00", "close": "23:00" }],
+        "wed": [{ "open": "12:00", "close": "23:00" }],
+        "thu": [{ "open": "12:00", "close": "23:00" }],
+        "fri": [{ "open": "12:00", "close": "23:00" }],
+        "sat": [{ "open": "12:00", "close": "23:00" }],
+        "sun": [{ "open": "12:00", "close": "23:00" }]
+      },
+      "hoursStatus": "known",
+      "hoursNote": "Live music from 21:00.",
+      "priceTier": null,
+      "entry": null,
+      "description": "Own brewery, own beer, and a band that starts at 21:00.",
+      "why": "Live music without any of the clubbing, and it is on your side of town.",
+      "accessNote": null,
+      "coords": [49.222995, 28.425988],
+      "needsVerification": false
+    },
+    {
+      "id": "novaprovintsiya",
+      "name": "Nova Provintsiya",
+      "nameUk": null,
+      "addressUk": "проспект Космонавтів, 30А",
+      "district": "west",
+      "category": "view",
+      "tags": ["bar"],
+      "hours": {
+        "mon": [{ "open": null, "close": "22:30" }],
+        "tue": [{ "open": null, "close": "22:30" }],
+        "wed": [{ "open": null, "close": "22:30" }],
+        "thu": [{ "open": null, "close": "22:30" }],
+        "fri": [{ "open": null, "close": "22:30" }],
+        "sat": [{ "open": null, "close": "22:30" }],
+        "sun": [{ "open": null, "close": "22:30" }]
+      },
+      "hoursStatus": "partial",
+      "hoursNote": "Opening time not stated in the source. Closes at 22:30 daily.",
+      "priceTier": "high",
+      "entry": null,
+      "description": "Restaurant on the western edge of the city with the whole of it laid out below.",
+      "why": "The view on this side of town, and the only sunset spot you can reach straight from work.",
+      "accessNote": null,
+      "coords": [49.226414, 28.419333],
+      "needsVerification": false
+    },
+    {
+      "id": "cherrylake",
+      "name": "Cherry Lake",
+      "nameUk": null,
+      "addressUk": "проспект Юності, 77",
+      "district": "west",
+      "category": "coffee",
+      "tags": [],
+      "hours": {
+        "mon": [{ "open": "11:00", "close": "22:30" }],
+        "tue": [{ "open": "11:00", "close": "22:30" }],
+        "wed": [{ "open": "11:00", "close": "22:30" }],
+        "thu": [{ "open": "11:00", "close": "22:30" }],
+        "fri": [{ "open": "11:00", "close": "22:30" }],
+        "sat": [{ "open": "11:00", "close": "22:30" }],
+        "sun": [{ "open": "11:00", "close": "22:30" }]
+      },
+      "hoursStatus": "known",
+      "hoursNote": null,
+      "priceTier": null,
+      "entry": null,
+      "description": "Open every day from 11:00 to 22:30 on prospekt Yunosti, ten minutes from the flat.",
+      "why": "A Sunday that needs no tram and no plan. The source says nothing else about it, so treat it as a walk with a destination.",
+      "accessNote": null,
+      "coords": [49.221364, 28.411227],
+      "needsVerification": false
+    },
+    {
+      "id": "tereveni",
+      "name": "Tereveni",
+      "nameUk": null,
+      "addressUk": "вулиця Келецька, 100",
+      "district": "west",
+      "category": "view",
+      "tags": ["coffee"],
+      "hours": {
+        "mon": [{ "open": "10:00", "close": "23:00" }],
+        "tue": [{ "open": "10:00", "close": "23:00" }],
+        "wed": [{ "open": "10:00", "close": "23:00" }],
+        "thu": [{ "open": "10:00", "close": "23:00" }],
+        "fri": [{ "open": "10:00", "close": "23:00" }],
+        "sat": [{ "open": "10:00", "close": "23:00" }],
+        "sun": [{ "open": "10:00", "close": "23:00" }]
+      },
+      "hoursStatus": "known",
+      "hoursNote": null,
+      "priceTier": null,
+      "entry": null,
+      "description": "Tables set out beside a pond, open until 23:00 every day of the week.",
+      "why": "The latest close on the west side, and water to look at instead of a screen.",
+      "accessNote": null,
+      "coords": [49.227323, 28.407205],
+      "needsVerification": false
+    },
+    {
+      "id": "cafesoul",
+      "name": "Cafe Soul",
+      "nameUk": null,
+      "addressUk": "вулиця Келецька, 125А",
+      "district": "west",
+      "category": "coffee",
+      "tags": [],
+      "hours": {
+        "mon": [{ "open": null, "close": "20:00" }],
+        "tue": [{ "open": null, "close": "20:00" }],
+        "wed": [{ "open": null, "close": "20:00" }],
+        "thu": [{ "open": null, "close": "20:00" }],
+        "fri": [{ "open": null, "close": "20:00" }],
+        "sat": [{ "open": null, "close": "20:00" }],
+        "sun": [{ "open": null, "close": "20:00" }]
+      },
+      "hoursStatus": "partial",
+      "hoursNote": "Opening time not stated in the source. Closes at 20:00.",
+      "priceTier": null,
+      "entry": null,
+      "description": "Specialty filter coffee, made slowly and properly, until 20:00.",
+      "why": "For the evenings when the coffee itself is the outing. Get there straight from work or not at all.",
+      "accessNote": null,
+      "coords": [49.229428, 28.391096],
+      "needsVerification": false
+    },
+    {
+      "id": "coffee13",
+      "name": "Coffee 13",
+      "nameUk": null,
+      "addressUk": "вулиця Пирогова, 74",
+      "district": "west",
+      "category": "coffee",
+      "tags": [],
+      "hours": {
+        "mon": [{ "open": null, "close": "21:00" }],
+        "tue": [{ "open": null, "close": "21:00" }],
+        "wed": [{ "open": null, "close": "21:00" }],
+        "thu": [{ "open": null, "close": "21:00" }],
+        "fri": [{ "open": null, "close": "21:00" }],
+        "sat": [{ "open": null, "close": "21:00" }],
+        "sun": [{ "open": null, "close": "21:00" }]
+      },
+      "hoursStatus": "partial",
+      "hoursNote": "Opening time not stated in the source. Closes at 21:00.",
+      "priceTier": null,
+      "entry": null,
+      "description": "Small coffee spot on Pyrohova, open until 21:00.",
+      "why": "Late coffee on the walk back, and it sits next door to the clay studio.",
+      "accessNote": null,
+      "coords": [49.223737, 28.443465],
+      "needsVerification": false
+    },
+    {
+      "id": "lipkaprostir",
+      "name": "lipka.prostir",
+      "nameUk": null,
+      "addressUk": "вулиця Пирогова, 71А",
+      "district": "west",
+      "category": "workshop",
+      "tags": [],
+      "hours": null,
+      "hoursStatus": "unpublished",
+      "hoursNote": "No published hours. You have to message them and book a slot.",
+      "priceTier": null,
+      "entry": null,
+      "description": "Clay and sculpting studio where you spend the evening making something with your hands.",
+      "why": "The only workshop near work, and a table of people concentrating on the same thing is an easy room to be alone in.",
+      "accessNote": null,
+      "coords": [49.221506, 28.446021],
+      "needsVerification": false
+    },
+    {
+      "id": "artgalereya",
+      "name": "Vinnytsia ART Galereya",
+      "nameUk": "Вінниця АРТ Галерея",
+      "addressUk": "вулиця Соборна, 75",
+      "district": "centre",
+      "category": "art",
+      "tags": ["view", "coffee"],
+      "hours": {
+        "mon": [{ "open": "09:00", "close": "21:00" }],
+        "tue": [{ "open": "09:00", "close": "21:00" }],
+        "wed": [{ "open": "09:00", "close": "21:00" }],
+        "thu": [{ "open": "09:00", "close": "21:00" }],
+        "fri": [{ "open": "09:00", "close": "21:00" }],
+        "sat": [{ "open": "09:00", "close": "21:00" }],
+        "sun": [{ "open": "09:00", "close": "21:00" }]
+      },
+      "hoursStatus": "known",
+      "hoursNote": null,
+      "priceTier": null,
+      "entry": null,
+      "description": "Gallery with a panoramic cafe on the fourth floor and the rooftops to go with it.",
+      "why": "The only art space in the city still open in the evening, every day until 21:00.",
+      "accessNote": null,
+      "coords": [49.233433, 28.464902],
+      "needsVerification": false
+    },
+    {
+      "id": "galleryxxi",
+      "name": "Gallery XXI",
+      "nameUk": null,
+      "addressUk": "вулиця Архітектора Артинова, 12А",
+      "district": "centre",
+      "category": "art",
+      "tags": ["coffee", "view"],
+      "hours": {
+        "mon": [{ "open": "10:00", "close": "18:00" }],
+        "tue": [{ "open": "10:00", "close": "18:00" }],
+        "wed": [{ "open": "10:00", "close": "18:00" }],
+        "thu": [{ "open": "10:00", "close": "18:00" }],
+        "fri": [{ "open": "10:00", "close": "18:00" }],
+        "sat": [{ "open": "11:00", "close": "18:00" }],
+        "sun": null
+      },
+      "hoursStatus": "known",
+      "hoursNote": null,
+      "priceTier": null,
+      "entry": null,
+      "description": "The city's one serious private gallery, with art books, waffles and a panorama from the cafe.",
+      "why": "Actual exhibitions rather than decoration. It shuts at 18:00, so this is a Saturday, never an after-work stop.",
+      "accessNote": "Access is by elevator only.",
+      "coords": null,
+      "needsVerification": true
+    },
+    {
+      "id": "etnochary",
+      "name": "Artprostir EtnoChary",
+      "nameUk": null,
+      "addressUk": "вулиця Магістратська, 52",
+      "district": "centre",
+      "category": "art",
+      "tags": ["workshop", "coffee"],
+      "hours": {
+        "mon": [{ "open": "10:00", "close": "20:00" }],
+        "tue": [{ "open": "10:00", "close": "20:00" }],
+        "wed": [{ "open": "10:00", "close": "20:00" }],
+        "thu": [{ "open": "10:00", "close": "20:00" }],
+        "fri": [{ "open": "10:00", "close": "20:00" }],
+        "sat": [{ "open": "10:00", "close": "20:00" }],
+        "sun": [{ "open": "10:00", "close": "20:00" }]
+      },
+      "hoursStatus": "known",
+      "hoursNote": null,
+      "priceTier": null,
+      "entry": null,
+      "description": "Ceramics studio, exhibition hall, cafe and terrace, all in one building on Mahistratska.",
+      "why": "Look at the work, have a coffee, and sign up to make something, without leaving the address.",
+      "accessNote": null,
+      "coords": [49.236678, 28.469085],
+      "needsVerification": false
+    },
+    {
+      "id": "artmuseum",
+      "name": "Vinnytsia Regional Art Museum",
+      "nameUk": null,
+      "addressUk": "вулиця Соборна, 23",
+      "district": "centre",
+      "category": "art",
+      "tags": [],
+      "hours": {
+        "mon": [{ "open": null, "close": "18:00" }],
+        "tue": [{ "open": null, "close": "18:00" }],
+        "wed": [{ "open": null, "close": "18:00" }],
+        "thu": [{ "open": null, "close": "18:00" }],
+        "fri": [{ "open": null, "close": "18:00" }],
+        "sat": [{ "open": null, "close": "18:00" }],
+        "sun": [{ "open": null, "close": "18:00" }]
+      },
+      "hoursStatus": "partial",
+      "hoursNote": "Only the 18:00 closing time is stated in the source. Opening time and any weekly closing day are unknown.",
+      "priceTier": "low",
+      "entry": "roughly 50 to 100 UAH",
+      "description": "The regional art collection, in the centre, with the doors shut by 18:00.",
+      "why": "Where the Heritage Days talks and workshops happen this week, which is the only way to see it after work.",
+      "accessNote": null,
+      "coords": [49.233202, 28.475422],
+      "needsVerification": false
+    },
+    {
+      "id": "historymuseum",
+      "name": "Vinnytsia Local History Museum",
+      "nameUk": null,
+      "addressUk": "вулиця Соборна, 19",
+      "district": "centre",
+      "category": "art",
+      "tags": [],
+      "hours": {
+        "mon": null,
+        "tue": [{ "open": "10:00", "close": "17:00" }],
+        "wed": [{ "open": "10:00", "close": "17:00" }],
+        "thu": [{ "open": "10:00", "close": "17:00" }],
+        "fri": [{ "open": "10:00", "close": "17:00" }],
+        "sat": [{ "open": "10:00", "close": "17:00" }],
+        "sun": [{ "open": "10:00", "close": "17:00" }]
+      },
+      "hoursStatus": "known",
+      "hoursNote": null,
+      "priceTier": "low",
+      "entry": "50 UAH",
+      "description": "Local history on Soborna, Tuesday to Sunday, fifty hryvnia to get in.",
+      "why": "Cheap and central, but it closes at 17:00, so it is a weekend visit only.",
+      "accessNote": null,
+      "coords": [49.232629, 28.47609],
+      "needsVerification": false
+    },
+    {
+      "id": "bar0432",
+      "name": "Bar.0432",
+      "nameUk": null,
+      "addressUk": "вулиця Магістратська, 3",
+      "district": "centre",
+      "category": "bar",
+      "tags": ["social"],
+      "hours": {
+        "mon": null,
+        "tue": null,
+        "wed": [{ "open": "18:00", "close": "22:30" }],
+        "thu": [{ "open": "18:00", "close": "22:30" }],
+        "fri": [{ "open": "18:00", "close": "22:30" }],
+        "sat": [{ "open": "17:00", "close": "22:30" }],
+        "sun": [{ "open": "17:00", "close": "22:30" }]
+      },
+      "hoursStatus": "known",
+      "hoursNote": "Closing time is approximate, around 22:30.",
+      "priceTier": null,
+      "entry": null,
+      "description": "Open terrace, a DJ, and a crowd that is not all from Vinnytsia. The owner speaks English.",
+      "why": "The single best room in the city to walk into on your own. Closed Monday and Tuesday.",
+      "accessNote": null,
+      "coords": [49.235673, 28.47505],
+      "needsVerification": false
+    },
+    {
+      "id": "radiatsiya",
+      "name": "Radiatsiya",
+      "nameUk": "Бар Радіація",
+      "addressUk": "вулиця Соборна, 38",
+      "district": "centre",
+      "category": "bar",
+      "tags": ["social"],
+      "hours": {
+        "mon": [{ "open": "16:00", "close": "23:00" }],
+        "tue": [{ "open": "16:00", "close": "23:00" }],
+        "wed": [{ "open": "16:00", "close": "23:00" }],
+        "thu": [{ "open": "16:00", "close": "23:00" }],
+        "fri": [{ "open": "16:00", "close": "23:00" }],
+        "sat": [{ "open": "16:00", "close": "23:00" }],
+        "sun": [{ "open": "16:00", "close": "23:00" }]
+      },
+      "hoursStatus": "known",
+      "hoursNote": null,
+      "priceTier": null,
+      "entry": null,
+      "description": "Informal bar on Soborna, open 16:00 to 23:00, seven days a week.",
+      "why": "No scene and no dress code, and it is open on the days when half the centre is not.",
+      "accessNote": null,
+      "coords": [49.233069, 28.470017],
+      "needsVerification": false
+    },
+    {
+      "id": "polunochnyky",
+      "name": "Polunochnyky",
+      "nameUk": "Полуночники",
+      "addressUk": "вулиця Соборна, 66",
+      "district": "centre",
+      "category": "bar",
+      "tags": [],
+      "hours": {
+        "mon": [{ "open": "16:00", "close": "22:30" }],
+        "tue": [{ "open": "16:00", "close": "22:30" }],
+        "wed": [{ "open": "16:00", "close": "22:30" }],
+        "thu": [{ "open": "16:00", "close": "22:30" }],
+        "fri": [{ "open": "16:00", "close": "22:30" }],
+        "sat": [{ "open": "16:00", "close": "22:30" }],
+        "sun": [{ "open": "16:00", "close": "22:30" }]
+      },
+      "hoursStatus": "known",
+      "hoursNote": null,
+      "priceTier": null,
+      "entry": null,
+      "description": "Cocktails on Soborna, daily until 22:30.",
+      "why": "For an evening that deserves a made drink rather than another beer.",
+      "accessNote": null,
+      "coords": [49.233692, 28.466798],
+      "needsVerification": false
+    },
+    {
+      "id": "hideandseek",
+      "name": "Hide and Seek",
+      "nameUk": null,
+      "addressUk": "вулиця Соборна, 58",
+      "district": "centre",
+      "category": "bar",
+      "tags": [],
+      "hours": {
+        "mon": [{ "open": "18:00", "close": "23:30" }],
+        "tue": [{ "open": "18:00", "close": "23:30" }],
+        "wed": [{ "open": "18:00", "close": "23:30" }],
+        "thu": [{ "open": "18:00", "close": "23:30" }],
+        "fri": [{ "open": "18:00", "close": "23:30" }],
+        "sat": [{ "open": "18:00", "close": "23:30" }],
+        "sun": [{ "open": "18:00", "close": "23:30" }]
+      },
+      "hoursStatus": "known",
+      "hoursNote": null,
+      "priceTier": null,
+      "entry": null,
+      "description": "You have to find the door first. Open 18:00 to 23:30, every day.",
+      "why": "The latest close on the whole list, and finding the entrance is half the evening.",
+      "accessNote": "Hidden entrance.",
+      "coords": [49.233385, 28.467736],
+      "needsVerification": false
+    },
+    {
+      "id": "dyadkoyosyp",
+      "name": "Dyadko Yosyp",
+      "nameUk": null,
+      "addressUk": "вулиця Кропивницького, 12",
+      "district": "centre",
+      "category": "bar",
+      "tags": [],
+      "hours": {
+        "mon": [{ "open": null, "close": "22:00" }],
+        "tue": [{ "open": null, "close": "22:00" }],
+        "wed": [{ "open": null, "close": "22:00" }],
+        "thu": [{ "open": null, "close": "22:00" }],
+        "fri": [{ "open": null, "close": "22:00" }],
+        "sat": [{ "open": null, "close": "22:00" }],
+        "sun": [{ "open": null, "close": "22:00" }]
+      },
+      "hoursStatus": "partial",
+      "hoursNote": "Opening time not stated in the source. Closes at 22:00.",
+      "priceTier": null,
+      "entry": null,
+      "description": "One small room pouring Ukrainian honey wine, mead and cider.",
+      "why": "Nothing else in the city serves this, and the room is too small to stay a stranger in for long.",
+      "accessNote": null,
+      "coords": [49.232089, 28.473536],
+      "needsVerification": false
+    },
+    {
+      "id": "barnomertry",
+      "name": "Bar Nomer Try",
+      "nameUk": null,
+      "addressUk": "вулиця Кропивницького, 3",
+      "district": "centre",
+      "category": "bar",
+      "tags": [],
+      "hours": {
+        "mon": null,
+        "tue": null,
+        "wed": [{ "open": "17:00", "close": "23:00" }],
+        "thu": [{ "open": "17:00", "close": "23:00" }],
+        "fri": [{ "open": "17:00", "close": "23:00" }],
+        "sat": [{ "open": "17:00", "close": "23:00" }],
+        "sun": [{ "open": "17:00", "close": "23:00" }]
+      },
+      "hoursStatus": "known",
+      "hoursNote": null,
+      "priceTier": null,
+      "entry": null,
+      "description": "Terrace and craft beer on Kropyvnytskoho, Wednesday to Sunday.",
+      "why": "A hundred metres from Dyadko Yosyp, so the two of them make a whole evening on one short street.",
+      "accessNote": null,
+      "coords": [49.232551, 28.473623],
+      "needsVerification": false
+    },
+    {
+      "id": "cherdak",
+      "name": "CHERDAK",
+      "nameUk": null,
+      "addressUk": "вулиця Соборна, 24",
+      "district": "centre",
+      "category": "view",
+      "tags": ["coffee"],
+      "hours": {
+        "mon": [{ "open": "09:00", "close": "21:00" }],
+        "tue": [{ "open": "09:00", "close": "21:00" }],
+        "wed": [{ "open": "09:00", "close": "21:00" }],
+        "thu": [{ "open": "09:00", "close": "21:00" }],
+        "fri": [{ "open": "09:00", "close": "21:00" }],
+        "sat": [{ "open": "09:00", "close": "21:00" }],
+        "sun": [{ "open": "09:00", "close": "21:00" }]
+      },
+      "hoursStatus": "known",
+      "hoursNote": null,
+      "priceTier": null,
+      "entry": null,
+      "description": "Eighth floor of Sky Park: coffee, and the city seen from above it.",
+      "why": "The centre's view at coffee prices instead of restaurant ones.",
+      "accessNote": "Sky Park, 8th floor.",
+      "coords": [49.233392, 28.471674],
+      "needsVerification": false
+    },
+    {
+      "id": "geekach",
+      "name": "Geekach",
+      "nameUk": null,
+      "addressUk": "Калічанська площа, 4",
+      "district": "centre",
+      "category": "social",
+      "tags": [],
+      "hours": {
+        "mon": null,
+        "tue": [{ "open": "10:00", "close": "21:00" }],
+        "wed": [{ "open": "10:00", "close": "21:00" }],
+        "thu": [{ "open": "10:00", "close": "21:00" }],
+        "fri": [{ "open": "10:00", "close": "21:00" }],
+        "sat": [{ "open": "10:00", "close": "21:00" }],
+        "sun": [{ "open": "10:00", "close": "21:00" }]
+      },
+      "hoursStatus": "known",
+      "hoursNote": null,
+      "priceTier": null,
+      "entry": null,
+      "description": "Board game club with a free open library, where people post in the club group when they need another player.",
+      "why": "Built for arriving alone: the game is the reason to sit down with strangers. Closed Mondays.",
+      "accessNote": null,
+      "coords": [49.233717, 28.455768],
+      "needsVerification": false
+    },
+    {
+      "id": "riverside",
+      "name": "RiverSide",
+      "nameUk": null,
+      "addressUk": "вулиця Чорновола, 2Б",
+      "district": "centre",
+      "category": "view",
+      "tags": ["bar"],
+      "hours": {
+        "mon": [{ "open": null, "close": "22:00" }],
+        "tue": [{ "open": null, "close": "22:00" }],
+        "wed": [{ "open": null, "close": "22:00" }],
+        "thu": [{ "open": null, "close": "22:00" }],
+        "fri": [{ "open": null, "close": "23:00" }],
+        "sat": [{ "open": null, "close": "23:00" }],
+        "sun": [{ "open": null, "close": "23:00" }]
+      },
+      "hoursStatus": "partial",
+      "hoursNote": "Opening time not stated in the source. Closes 22:00 on weekdays, 23:00 Friday to Sunday.",
+      "priceTier": null,
+      "entry": null,
+      "description": "Terrace out over the Southern Bug. Go for the drink and the water, not for the food.",
+      "why": "The river at dusk, ten minutes off Soborna, and nobody minds a table for one.",
+      "accessNote": null,
+      "coords": null,
+      "needsVerification": true
+    },
+    {
+      "id": "sadovsky",
+      "name": "Sadovsky Music and Drama Theatre",
+      "nameUk": null,
+      "addressUk": "вулиця Театральна, 13",
+      "district": "centre",
+      "category": "art",
+      "tags": [],
+      "hours": null,
+      "hoursStatus": "unpublished",
+      "hoursNote": "Opens for performances. See the three dated shows this week.",
+      "priceTier": null,
+      "entry": null,
+      "description": "The city's music and drama theatre, on Teatralna.",
+      "why": "Three shows in this one week, and the cheapest seats start at 150 UAH.",
+      "accessNote": null,
+      "coords": [49.234853, 28.464302],
+      "needsVerification": false
+    },
+    {
+      "id": "philharmonic",
+      "name": "Vinnytsia Regional Philharmonic",
+      "nameUk": null,
+      "addressUk": null,
+      "district": "centre",
+      "category": "art",
+      "tags": [],
+      "hours": null,
+      "hoursStatus": "unverified",
+      "hoursNote": "Nothing published in the source.",
+      "priceTier": null,
+      "entry": null,
+      "description": "The regional philharmonic, listed here for the programme rather than for a specific night.",
+      "why": "On the list because the concert programme is worth checking. The address was never confirmed, so it is not on the map.",
+      "accessNote": null,
+      "coords": null,
+      "needsVerification": true
+    },
+    {
+      "id": "bilazala",
+      "name": "Bila Zala",
+      "nameUk": null,
+      "addressUk": "вулиця Соборна, 67",
+      "district": "centre",
+      "category": "art",
+      "tags": [],
+      "hours": null,
+      "hoursStatus": "unpublished",
+      "hoursNote": "Opens for events.",
+      "priceTier": null,
+      "entry": null,
+      "description": "The White Hall of the former city duma, used for talks and public meetings.",
+      "why": "Thursday's free Heritage Days panel is held here, and the room itself is worth the walk in.",
+      "accessNote": null,
+      "coords": [49.233, 28.467242],
+      "needsVerification": false
+    },
+    {
+      "id": "stampmuseum",
+      "name": "Yakiv Balaban Stamp Museum",
+      "nameUk": null,
+      "addressUk": "вулиця Соборна, 26",
+      "district": "centre",
+      "category": "art",
+      "tags": [],
+      "hours": null,
+      "hoursStatus": "unpublished",
+      "hoursNote": "No regular hours in the source. Free doors on Saturday 26 September, 12:00 to 18:00.",
+      "priceTier": null,
+      "entry": null,
+      "description": "Yakiv Balaban's stamp collection, a small room on Soborna.",
+      "why": "Free on Saturday afternoon, and it stands two minutes from the transport museum.",
+      "accessNote": null,
+      "coords": [49.232787, 28.471256],
+      "needsVerification": false
+    },
+    {
+      "id": "transportmuseum",
+      "name": "Museum of Transport Models",
+      "nameUk": null,
+      "addressUk": "вулиця Соборна, 64",
+      "district": "centre",
+      "category": "art",
+      "tags": [],
+      "hours": null,
+      "hoursStatus": "unpublished",
+      "hoursNote": "No regular hours in the source. Free doors on Saturday 26 September, 12:00 to 18:00.",
+      "priceTier": null,
+      "entry": null,
+      "description": "Models of the trams, buses and trains that have run through the city.",
+      "why": "The other half of Saturday's free afternoon, and a short walk up the same street.",
+      "accessNote": null,
+      "coords": [49.23353, 28.467124],
+      "needsVerification": false
+    },
+    {
+      "id": "dockerpub",
+      "name": "Docker Pub",
+      "nameUk": null,
+      "addressUk": null,
+      "district": "centre",
+      "category": "bar",
+      "tags": ["social"],
+      "hours": null,
+      "hoursStatus": "unverified",
+      "hoursNote": "Opens for gigs. Nothing else published in the source.",
+      "priceTier": null,
+      "entry": null,
+      "description": "The live music venue: touring bands play here rather than at the theatre.",
+      "why": "Two gigs this week. The address was never confirmed, so it is not on the map, and you will need to look it up before you go.",
+      "accessNote": null,
+      "coords": null,
+      "needsVerification": true
+    }
+  ],
+  "events": [
+    {
+      "id": "zanepali-anhely",
+      "date": "2026-09-22",
+      "time": "18:00",
+      "title": "Занепалі янголи",
+      "venueIds": ["sadovsky"],
+      "locationText": null,
+      "priceText": "400 UAH",
+      "priceFrom": 400,
+      "note": null,
+      "needsVerification": false
+    },
+    {
+      "id": "telema",
+      "date": "2026-09-22",
+      "time": "18:30",
+      "title": "TELEMA",
+      "venueIds": ["dockerpub"],
+      "locationText": "Docker Pub, address unconfirmed",
+      "priceText": "from 440 UAH",
+      "priceFrom": 440,
+      "note": null,
+      "needsVerification": true
+    },
+    {
+      "id": "remeslo",
+      "date": "2026-09-23",
+      "time": null,
+      "runsUntil": "2026-09-30",
+      "title": "Ремесло. Спадщина. Майбутнє",
+      "venueIds": ["etnochary"],
+      "locationText": null,
+      "priceText": null,
+      "priceFrom": null,
+      "note": "The craft exhibition opens today and runs to 30 September, with weaving, pottery and rush-plaiting workshops alongside it.",
+      "needsVerification": false
+    },
+    {
+      "id": "kvitka",
+      "date": "2026-09-23",
+      "time": "18:30",
+      "title": "KVITKA",
+      "venueIds": ["sadovsky"],
+      "locationText": null,
+      "priceText": "150 to 400 UAH",
+      "priceFrom": 150,
+      "note": null,
+      "needsVerification": false
+    },
+    {
+      "id": "kolazh",
+      "date": "2026-09-24",
+      "time": "16:30",
+      "title": "Collage workshop: Зібрати себе",
+      "venueIds": ["artmuseum"],
+      "locationText": null,
+      "priceText": null,
+      "priceFrom": null,
+      "note": null,
+      "needsVerification": false
+    },
+    {
+      "id": "kherson",
+      "date": "2026-09-24",
+      "time": "17:00",
+      "title": "Guided tour: Херсон: не/вкрадене",
+      "venueIds": ["artmuseum"],
+      "locationText": null,
+      "priceText": null,
+      "priceFrom": null,
+      "note": "On the Kherson art museum collection looted by Russian forces.",
+      "needsVerification": false
+    },
+    {
+      "id": "spadshchyna",
+      "date": "2026-09-24",
+      "time": "17:00",
+      "title": "Panel discussion: Спадщина під загрозою",
+      "venueIds": ["bilazala"],
+      "locationText": null,
+      "priceText": "free",
+      "priceFrom": 0,
+      "note": null,
+      "needsVerification": false
+    },
+    {
+      "id": "potyah",
+      "date": "2026-09-24",
+      "time": "18:00",
+      "title": "Потяг. Шлях до себе",
+      "venueIds": ["sadovsky"],
+      "locationText": null,
+      "priceText": "400 UAH",
+      "priceFrom": 400,
+      "note": null,
+      "needsVerification": false
+    },
+    {
+      "id": "open-doors",
+      "date": "2026-09-26",
+      "time": "12:00",
+      "endTime": "18:00",
+      "title": "Free open doors: Stamp Museum and Museum of Transport Models",
+      "venueIds": ["stampmuseum", "transportmuseum"],
+      "locationText": null,
+      "priceText": "free",
+      "priceFrom": 0,
+      "note": null,
+      "needsVerification": false
+    },
+    {
+      "id": "sourdough",
+      "date": "2026-09-26",
+      "time": "15:00",
+      "title": "Sourdough bread masterclass",
+      "venueIds": ["etnochary"],
+      "locationText": null,
+      "priceText": null,
+      "priceFrom": null,
+      "note": null,
+      "needsVerification": false
+    },
+    {
+      "id": "khamerman",
+      "date": "2026-09-26",
+      "time": "18:00",
+      "title": "Хамерман Знищує Віруси",
+      "venueIds": ["dockerpub"],
+      "locationText": "Docker Pub, address unconfirmed",
+      "priceText": "from 601 UAH",
+      "priceFrom": 601,
+      "note": null,
+      "needsVerification": true
+    },
+    {
+      "id": "rush-plaiting",
+      "date": "2026-09-27",
+      "time": "12:00",
+      "title": "Rush-plaiting workshop",
+      "venueIds": ["etnochary"],
+      "locationText": null,
+      "priceText": null,
+      "priceFrom": null,
+      "note": null,
+      "needsVerification": false
+    },
+    {
+      "id": "weaving",
+      "date": "2026-09-27",
+      "time": "14:00",
+      "title": "Weaving workshop",
+      "venueIds": ["etnochary"],
+      "locationText": null,
+      "priceText": null,
+      "priceFrom": null,
+      "note": null,
+      "needsVerification": false
+    },
+    {
+      "id": "constructivism",
+      "date": "2026-09-27",
+      "time": "16:00",
+      "title": "Bus tour: constructivist architecture in Vinnytsia",
+      "venueIds": [],
+      "locationText": "Meeting point not published",
+      "priceText": null,
+      "priceFrom": null,
+      "note": "The tour is by bus, so the pick-up point matters. It was not in the source.",
+      "needsVerification": true
+    },
+    {
+      "id": "karpa",
+      "date": "2026-09-27",
+      "time": "19:00",
+      "title": "Irena Karpa, literary stand-up",
+      "venueIds": [],
+      "locationText": "Pedagogical University",
+      "priceText": "from 350 UAH",
+      "priceFrom": 350,
+      "note": "The university is not in the venue directory and has no confirmed address here.",
+      "needsVerification": true
+    }
+  ],
+  "days": [
+    {
+      "id": "mon",
+      "date": "2026-09-21",
+      "label": "Mon",
+      "dateLabel": "21 Sep",
+      "status": "active",
+      "note": "PROPAGANDA and Geekach are both shut on Mondays, and so is the local history museum. Monday is a west-side night.",
+      "plans": [
+        {
+          "kind": "main",
+          "mode": "sequence",
+          "title": "Wine first, then the terrace",
+          "steps": [
+            {
+              "venueIds": ["gigi"],
+              "eventId": null,
+              "time": "18:15",
+              "timeNote": "they lock up at 20:00",
+              "what": "Taste your way through the Vinnytsia winery's own shop and pick a bottle. Ask what they opened today.",
+              "cost": "Shop prices, no figure published"
+            },
+            {
+              "venueIds": ["omotenashi"],
+              "eventId": null,
+              "time": "19:30",
+              "timeNote": "open to 22:00",
+              "what": "Ten minutes down the same street. Take the terrace while the evenings still allow it.",
+              "cost": "Coffee prices, no figure published"
+            }
+          ]
+        },
+        {
+          "kind": "b",
+          "mode": "sequence",
+          "title": "If you want the short version",
+          "steps": [
+            {
+              "venueIds": ["kultura"],
+              "eventId": null,
+              "time": "18:15",
+              "timeNote": "open to 21:30",
+              "what": "The cheapest good coffee in Vyshenka, and close enough that going home first is still an option.",
+              "cost": "The cheapest on this whole list"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tue",
+      "date": "2026-09-22",
+      "label": "Tue",
+      "dateLabel": "22 Sep",
+      "status": "active",
+      "note": "Both of tonight's ticketed events start at or before 18:30 in the centre, which is tight from work and over budget.",
+      "plans": [
+        {
+          "kind": "main",
+          "mode": "sequence",
+          "title": "The counter at PROPAGANDA",
+          "steps": [
+            {
+              "venueIds": ["propaganda"],
+              "eventId": null,
+              "time": "18:15",
+              "timeNote": "Tuesday hours are 16:00 to 22:00",
+              "what": "Sit at the bar, not at a table. Ask what is new on the taps, and the conversation starts itself.",
+              "cost": "No figure published"
+            }
+          ]
+        },
+        {
+          "kind": "b",
+          "mode": "sequence",
+          "title": "If you would rather do something than talk",
+          "steps": [
+            {
+              "venueIds": ["geekach"],
+              "eventId": null,
+              "time": "18:30",
+              "timeNote": "closes 21:00, so go straight there",
+              "what": "Take something from the open library, or post in the club group on the tram that you are looking for players.",
+              "cost": "No figure published"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wed",
+      "date": "2026-09-23",
+      "label": "Wed",
+      "dateLabel": "23 Sep",
+      "status": "active",
+      "note": "The one night that is worth the trip east. Both stops are on Mahistratska, five minutes apart.",
+      "plans": [
+        {
+          "kind": "main",
+          "mode": "sequence",
+          "title": "Into the centre",
+          "steps": [
+            {
+              "venueIds": ["etnochary"],
+              "eventId": "remeslo",
+              "time": "18:30",
+              "timeNote": "closes at 20:00, so this is your window",
+              "what": "The craft exhibition opens today. See the hall, then take the terrace or the cafe and ask about the workshop dates.",
+              "cost": "No figure published"
+            },
+            {
+              "venueIds": ["bar0432"],
+              "eventId": null,
+              "time": "20:00",
+              "timeNote": "open since 18:00, runs to about 22:30",
+              "what": "Walk down Mahistratska. Terrace, a DJ, and the one room in this city where arriving alone needs no explanation.",
+              "cost": "No figure published"
+            }
+          ]
+        },
+        {
+          "kind": "b",
+          "mode": "sequence",
+          "title": "If the exhibition is a washout",
+          "steps": [
+            {
+              "venueIds": ["sadovsky"],
+              "eventId": "kvitka",
+              "time": "18:30",
+              "timeNote": "tight: you leave work at 18:00 and the centre is 15 to 20 minutes",
+              "what": "KVITKA at the theatre. Go straight from the office, do not stop at home.",
+              "cost": "From 150 UAH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thu",
+      "date": "2026-09-24",
+      "label": "Thu",
+      "dateLabel": "24 Sep",
+      "status": "active",
+      "note": "Thursday has the best Heritage Days programme of the week and all of it starts at 16:30 or 17:00, before you can get there. Take the sunset instead.",
+      "plans": [
+        {
+          "kind": "main",
+          "mode": "sequence",
+          "title": "Sunset from the western edge",
+          "steps": [
+            {
+              "venueIds": ["novaprovintsiya"],
+              "eventId": null,
+              "time": "18:30",
+              "timeNote": "the sun goes down just before 19:00 this week",
+              "what": "Straight from work, no detour. Take one drink and the window seat, and stay for the light going off the city.",
+              "cost": "Restaurant prices: plan on one drink"
+            }
+          ]
+        },
+        {
+          "kind": "b",
+          "mode": "sequence",
+          "title": "If the sky is grey",
+          "steps": [
+            {
+              "venueIds": ["lipkaprostir"],
+              "eventId": null,
+              "time": "evening, if they have a slot",
+              "timeNote": "message them first, they publish nothing",
+              "what": "An evening with your hands in clay, at a table of people doing the same thing.",
+              "cost": "No figure published"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fri",
+      "date": "2026-09-25",
+      "label": "Fri",
+      "dateLabel": "25 Sep",
+      "status": "excluded",
+      "excludedLabel": "no plan",
+      "note": "Friday is spoken for.",
+      "plans": []
+    },
+    {
+      "id": "sat",
+      "date": "2026-09-26",
+      "label": "Sat",
+      "dateLabel": "26 Sep",
+      "status": "active",
+      "note": "No work, so the whole afternoon is in play. Both museums and the bar are inside one square kilometre of the centre.",
+      "plans": [
+        {
+          "kind": "main",
+          "mode": "sequence",
+          "title": "Free museums, then the terrace",
+          "steps": [
+            {
+              "venueIds": ["stampmuseum", "transportmuseum"],
+              "eventId": "open-doors",
+              "time": "12:00",
+              "timeNote": "free doors at both until 18:00",
+              "what": "Soborna 26 and Soborna 64, a two-minute walk apart. Stamps in one, trams in the other, nothing to pay in either.",
+              "cost": "Free"
+            },
+            {
+              "venueIds": ["bar0432"],
+              "eventId": null,
+              "time": "18:00",
+              "timeNote": "open since 17:00 on Saturdays, runs to about 22:30",
+              "what": "Ten minutes from Soborna. Saturday is when the terrace crowd is mixed and nobody is on a schedule.",
+              "cost": "No figure published"
+            }
+          ]
+        },
+        {
+          "kind": "b",
+          "mode": "sequence",
+          "title": "If you want to stay west",
+          "steps": [
+            {
+              "venueIds": ["beerblues"],
+              "eventId": null,
+              "time": "20:30",
+              "timeNote": "the band starts at 21:00",
+              "what": "Their own beer, their own brewery, and a live set that does not turn into a club afterwards.",
+              "cost": "No figure published"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sun",
+      "date": "2026-09-27",
+      "label": "Sun",
+      "dateLabel": "27 Sep",
+      "status": "active",
+      "note": "Three EtnoChary workshops and the architecture bus tour all run in daylight today, and every one of them is reachable on a Sunday.",
+      "plans": [
+        {
+          "kind": "main",
+          "mode": "either",
+          "title": "Water, whichever kind you feel like",
+          "steps": [
+            {
+              "venueIds": ["cherrylake"],
+              "eventId": null,
+              "time": "from 11:00",
+              "timeNote": "closes 22:30",
+              "what": "Prospekt Yunosti, no tram, no plan. A walk with a destination at the end of it.",
+              "cost": "No figure published"
+            },
+            {
+              "venueIds": ["tereveni"],
+              "eventId": null,
+              "time": "from 10:00",
+              "timeNote": "closes 23:00, the latest on this side",
+              "what": "Tables by the pond on Keletska. Stay until it gets cold, which it will.",
+              "cost": "No figure published"
+            }
+          ]
+        },
+        {
+          "kind": "b",
+          "mode": "sequence",
+          "title": "If you will stretch the budget",
+          "steps": [
+            {
+              "venueIds": [],
+              "eventId": "karpa",
+              "time": "19:00",
+              "timeNote": "check the address before you set out",
+              "what": "Irena Karpa doing literary stand-up at the Pedagogical University. Over budget, and worth it if the week has been long.",
+              "cost": "From 350 UAH, over the 300 limit"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
