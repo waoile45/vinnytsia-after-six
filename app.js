@@ -16,6 +16,34 @@
   var map = null;
   var markers = {};      // venue id -> Leaflet marker
 
+  // ---------- motion ----------
+
+  // Honour the OS setting: with reduced motion we never add the js-motion class, so
+  // the hidden start state for revealed cards is never applied in the first place.
+  var motionOK = !window.matchMedia || !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var revealObserver = null;
+
+  function initMotion() {
+    if (!motionOK || !("IntersectionObserver" in window)) return;
+    document.documentElement.classList.add("js-motion");
+    revealObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-in");
+        revealObserver.unobserve(entry.target);
+      });
+    }, { rootMargin: "0px 0px -6% 0px", threshold: 0.04 });
+  }
+
+  // Cards fade up as they scroll in, staggered a little across a row.
+  function reveal(node, index) {
+    if (!revealObserver) return node;
+    node.classList.add("reveal");
+    if (index) node.style.animationDelay = Math.min(index % 6, 5) * 55 + "ms";
+    revealObserver.observe(node);
+    return node;
+  }
+
   // ---------- small helpers ----------
 
   function el(tag, className, text) {
@@ -141,11 +169,11 @@
     document.getElementById("footer-heritage-note").textContent = D.meta.heritageDaysNote;
 
     var list = document.getElementById("notes-list");
-    D.practicalNotes.forEach(function (n) {
+    D.practicalNotes.forEach(function (n, i) {
       var li = el("li", "note");
       li.appendChild(el("h3", "note__h", n.title));
       li.appendChild(el("p", "note__b", n.body));
-      list.appendChild(li);
+      list.appendChild(reveal(li, i));
     });
 
     var unmapped = document.getElementById("unmapped-list");
@@ -465,7 +493,15 @@
       if (!pin) return;
       var on = !any || ids[vid];
       pin.classList.toggle("pin--dim", !on);
-      if (any && ids[vid]) focus.push(markers[vid].getLatLng());
+      if (!on) pin.classList.remove("pin--pop");
+      if (any && ids[vid]) {
+        focus.push(markers[vid].getLatLng());
+        if (motionOK) {
+          pin.classList.remove("pin--pop");
+          void pin.offsetWidth; // forces a reflow so the animation restarts
+          pin.classList.add("pin--pop");
+        }
+      }
     });
 
     if (focus.length) {
@@ -540,7 +576,7 @@
       return catOk && distOk;
     });
 
-    shown.forEach(function (v) { list.appendChild(renderVenue(v)); });
+    shown.forEach(function (v, i) { list.appendChild(reveal(renderVenue(v), i)); });
     empty.hidden = shown.length > 0;
     document.getElementById("result-count").textContent = shown.length + " " + UI.resultCount;
   }
@@ -635,6 +671,7 @@
       D.venues.forEach(function (v) { byId[v.id] = v; });
       D.events.forEach(function (e) { eventById[e.id] = e; });
 
+      initMotion();
       renderStatics();
       renderDays();
       renderFilters();

@@ -58,14 +58,14 @@
   },
   "practicalNotes": [
     {
-      "id": "curfew",
-      "title": "Curfew is 00:00 to 05:00",
-      "body": "Almost everything shuts between 22:00 and 23:30. An evening here starts at 18:15, not at 21:00. Plan the first stop, not the last."
+      "id": "early",
+      "title": "This city's evenings are short",
+      "body": "Almost everything on this list shuts between 22:00 and 23:30. So the night starts at 18:15, not at 21:00. Pick the first stop carefully; the last one mostly picks itself."
     },
     {
-      "id": "alerts",
-      "title": "Torii, if the sirens go",
-      "body": "No warning, and the venue empties. Most of the centre places you're going to are within ten minutes' walk of each other along Soborna, so if one night gets cut short, you're never far from the next stop or from shelter."
+      "id": "alone",
+      "title": "Where walking in alone is easy",
+      "body": "Three of these are built for it: the counter at PROPAGANDA, the terrace at Bar.0432, and the open game library at Geekach, where people post in the club group looking for a fourth player. Sit at the bar, not at a table."
     }
   ],
   "categories": [
@@ -1026,7 +1026,7 @@
       "locationText": null,
       "priceText": null,
       "priceFrom": null,
-      "note": "On the Kherson art museum collection looted by Russian forces.",
+      "note": null,
       "needsVerification": false
     },
     {

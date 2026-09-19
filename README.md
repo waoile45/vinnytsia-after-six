@@ -43,7 +43,7 @@ level has:
 | --- | --- |
 | `meta` | Title, intro, the 300 UAH budget, and `commute`, the times used to flag events that start before she could get there |
 | `ui` | Section headings and every interface label |
-| `practicalNotes` | The curfew note and the air raid note |
+| `practicalNotes` | The two notes in the "Before you go" block |
 | `categories` | The six filters, each with the colour used for its map pin |
 | `districts` | `west` and `centre` |
 | `priceTiers` | `low`, `mid`, `high` |
